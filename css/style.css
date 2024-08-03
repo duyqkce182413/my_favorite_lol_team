@@ -1,0 +1,263 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+.title {
+    text-transform: uppercase !important;
+    border-bottom: 2px solid red; 
+    margin-bottom: 30px;
+}
+
+/* Body and Font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+/* header */
+.navbar {
+    background-image: linear-gradient(to right, #161616, #fc161a);
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: auto;
+}
+
+.nav-item {
+    padding: 0 15px;
+    transition: border-bottom 0.3s, color 0.3s;
+}
+
+.nav-item a {
+    color: #CCC;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* hero section */
+.hero-section {
+    margin-top: 75px !important;
+    position: relative;
+    padding-top: 50%;
+    background: url(/img/T1.jpg) top center / cover no-repeat;
+}
+.hero-section .container-fluid {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 50px;
+    color: #fff;
+    padding: 20px 0;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.4); 
+    box-shadow: 0 0 50px rgba(255, 255, 255,  0.3);
+}
+/* hero section */
+
+.hero-section .container-fluid h1 {
+    font-weight: 900px;
+}
+.hero-section .container-fluid p {
+    font-size: 17px;
+    
+}
+
+/* team section */
+.team-section {
+    background-color: #2A2829;
+    color: #fff;
+}
+
+.team-section h1 {
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.team-section {
+    line-height: 1.4;
+    padding: 100px 0 !important;
+}
+
+/* player section */
+.players-header {
+    text-transform: uppercase;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    z-index: 1;
+    transform: scale(1.15);
+    box-shadow: none;
+}
+
+.card-body {
+    background-color: #161616;
+}
+
+.card-title, .card-text {
+    color: #fff !important;
+}
+
+.card-title {
+    
+}
+
+.card-text {
+
+}
+
+/* history section */
+.history-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.history-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.timeline-event {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.timeline-event:hover {
+    transform: scale(1.1);
+}
+
+.timeline-event-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.timeline-event-content {
+    padding: 20px;
+}
+
+.timeline-event-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.timeline-event-content p {
+    font-size: 1em;
+    color: #6c757d;
+}
+
+/* contact section */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.contact-section .form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-section .form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.contact-section .btn {
+    padding: 7px 15px;
+    border-radius: 0;
+    background-color: #fc161a;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.contact-section .btn:hover {
+    color: #fc161a;
+    border: 1px solid #fc161a;
+}
+
+/* footer */
+.footer {
+    background-color: #2c2c2c;
+    color: #f1f1f1;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #fc161a !important; /* Red color on hover */
+}
+
+
+.footer .list-inline-item {
+    margin-right: 10px;
+}
+
+.footer .list-inline-item a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer .list-inline-item a:hover {
+    color: #fc161a; /* Red color on hover */
+}  font-size: 1.5rem;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
